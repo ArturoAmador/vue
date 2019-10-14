@@ -1,12 +1,14 @@
 <template>
   <div id="app" class="principal">
     <span>APP</span>
+    <entranda></entranda>
   </div>
 </template>
 
 <script>
+  import entrada from "@/views/entrada.vue";
   export default {
-
+      comments:{entrada}
   }
 </script>
 

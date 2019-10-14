@@ -1,10 +1,12 @@
 <template>
-
+    <span>Entrada</span>
 </template>
 
 <script>
+    import cliente from "@/components/cliente";
     export default {
-        name: "entrada"
+        name: "entrada",
+        components: {cliente}
     }
 </script>
 
